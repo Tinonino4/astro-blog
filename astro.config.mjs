@@ -6,6 +6,6 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://tinonino4.github.io',
-  // base: '/astro-blog/',
+  base: '/astro-blog/',
   integrations: [tailwind()]
 });
